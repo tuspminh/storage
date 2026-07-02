@@ -1,0 +1,51 @@
+# Bỏ qua các tệp lưu mật khẩu, cấu hình môi trường bí mật (BẮT BUỘC)
+.env
+.env.local
+.env.*.local
+config.json
+credentials.json
+
+# Bỏ qua các thư mục thư viện tải về (rất nặng, không cần upload)
+node_modules/
+bower_components/
+jspm_packages/
+vendor/
+
+# Bỏ qua các thư mục sinh ra khi build/chạy dự án
+dist/
+build/
+out/
+.next/
+.nuxt/
+bin/
+obj/
+
+# Bỏ qua các tệp rác tự động sinh ra bởi Hệ điều hành
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Bỏ qua tệp cấu hình của các trình soạn thảo mã nguồn (IDE)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Bỏ qua các tệp nhật ký lỗi (Log files)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bỏ qua các tệp dữ liệu lớn hoặc tệp nén tạm thời
+*.zip
+*.tar.gz
+*.rar
+*.mp4
+*.dmg
+*.iso
